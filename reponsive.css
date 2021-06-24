@@ -1,0 +1,217 @@
+
+@font-face{
+    src:url(font/gothamhtf-bold-webfont.ttf);
+    font-family: GothamBold;
+}
+
+@font-face{
+    src:url(font/gothamhtf-book-webfont.ttf);
+    font-family: GothamBook;
+}
+
+/* Big tablet to 1200px; */
+@media only screen  and (max-width:1200px) and (min-width:1024px){
+  html{
+      font-size: 16px;
+  }
+  header{
+      max-height: 535px;
+  }
+  .heading-main{
+      transform: translate(-50%,-100%);
+  }
+  .heading-main-text{
+      font-size: 300%;
+  }
+  .happy{
+      transform: translate(-50%,-50%);
+      text-align: center;
+  }
+  .tag-section{
+    margin-top: -25px;
+}
+  .image img{
+      height: 590px;
+  }
+  .img img{
+      height: 250px;
+  }
+}
+ 
+/* Small tablet to big tablet from 768x to 1023px */
+@media only screen and (max-width:1023px){
+    .heading-main{
+        transform: translate(-30%,-100%);
+    }
+    .heading-main-text{
+        font-size: 200%;
+    }
+    .happy{
+        text-align: center;
+    }
+    .image img{
+        height: 400px;
+    }
+    .img img{
+        height: 160px;
+    }
+    .tag-section{
+        margin-top: -25px;
+    }
+    h3{
+        font-size: 70%;
+    }
+    .text{
+        width: 300px;
+        height: 20px;
+    }
+    .buttom{
+        width: 20px;
+        height: 20px;
+        font-size: 50%;
+
+    }
+    .contact{
+        font-size: 80%;
+        margin-right: 30px;
+    }
+    .formm{
+        margin-left: 30px;
+    }
+    .btn{
+        font-size: 100%;
+        margin-left: 20px;
+    }
+    footer{
+        font-size: 70%;
+    }
+}
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px){
+    .main-nav{
+        font-size: 70%;
+        margin-left: 20px;
+    }
+    .heading-main{
+        transform: translate(-30%,-100%);
+    }
+    .heading-main-text{
+        font-size: 100%;
+    }
+    .happy{
+        text-align: center;
+        font-size: 80%
+    }
+    .image img{
+        height: 240px;
+    }
+    .img img{
+        height: 100px;
+    }
+    .tag-section{
+        margin-top: -25px;
+    }
+    .tag-section p{
+        font-size: 70%;
+    }
+    h3{
+        font-size: 50%;
+    }
+    .text{
+        width: 200px;
+        height: 15px;
+    }
+    .buttom{
+        width: 15px;
+        height: 15px;
+        font-size: 30%;
+    }
+    .contact{
+        font-size: 60%;
+        margin-right: 50px;
+    }
+    .formm{
+        margin-left: 40px;
+    }
+    .btn{
+        font-size: 80%;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    footer{
+        font-size: 50%;
+    }
+}
+ 
+/* Small phones from 0 to 480px; */
+@media only screen and (max-width: 480px){
+    header{
+        max-height: 480px;
+    }
+    .main-nav{
+        font-size: 60%;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+    .main-nav li{
+        margin-bottom: 10px;
+    }
+    
+    .heading-main{
+        transform: translate(-50%,-100%);
+    }
+    .heading-main-text{
+        font-size: 60%;
+    }
+    .happy{
+        text-align: center;
+        font-size: 60%
+    }
+    .image{
+        width: 100%;
+    }
+    .image img{
+        height: 220px;
+        margin-bottom: -25px;
+    }
+    .img{
+        width: 100%;
+    }
+    .img img{
+        height: 200px;
+    }
+    .tag-section{
+        margin-top: 0px;
+    }
+    .tag-section p{
+        font-size: 60%;
+        margin-bottom: 10px;
+    }
+    h3{
+        font-size: 50%;
+    }
+    .text{
+        width: 150px;
+        height: 10px;
+    }
+    .buttom{
+        width: 10px;
+        height: 10px;
+        font-size: 20%;
+    }
+    .contact{
+        font-size: 60%;
+        margin-right: 80px;
+    }
+    .formm{
+        margin-left: 20px;
+    }
+    .btn{
+        font-size: 80%;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    footer{
+        font-size: 45%;
+    }
+}
